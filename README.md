@@ -18,10 +18,10 @@ MyWebAPI/
 │
 ├── Services/
 │   ├── Interfaces/
-│   │   └── IGatewayController.cs
+│   │   └── IGatewayService.cs
 │   │
 │   └── Implementations/
-│       └── GatewayController.cs
+│       └── GatewayService.cs
 │
 ├── Repositories/
 │   ├── Interfaces/
@@ -37,7 +37,7 @@ MyWebAPI/
 │   └── DataContext.cs
 │
 ├── DTOs/
-│   ├── Gateway.cs
+│   ├── GatewayDto.cs
 │   │── CreateGatewayDto.cs
 │   └── UpdateGatewayDto.cs
 │
