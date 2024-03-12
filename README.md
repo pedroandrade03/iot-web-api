@@ -14,37 +14,32 @@ Vamos começar esta jornada explorando como estruturar suas APIs Web em C#, orga
 MyWebAPI/
 │
 ├── Controllers/
-│   ├── UserController.cs
-│   └── ProductController.cs
+│   └── GatewayController.cs
 │
 ├── Services/
 │   ├── Interfaces/
-│   │   ├── IUserService.cs
-│   │   └── IProductService.cs
+│   │   └── IGatewayController.cs
 │   │
 │   └── Implementations/
-│       ├── UserService.cs
-│       └── ProductService.cs
+│       └── GatewayController.cs
 │
 ├── Repositories/
 │   ├── Interfaces/
-│   │   ├── IUserRepository.cs
-│   │   └── IProductRepository.cs
+│   │   └── IGatewayRepository.cs
 │   │
 │   └── Implementations/
-│       ├── UserRepository.cs
-│       └── ProductRepository.cs
+│       └── GatewayRepository.cs
 │
 ├── Entities/
-│   ├── User.cs
-│   └── Product.cs
+│   └── Gateway.cs
 │
 ├── Data/
 │   └── DataContext.cs
 │
 ├── DTOs/
-│   ├── UserDTO.cs
-│   └── ProductDTO.cs
+│   ├── Gateway.cs
+│   │── CreateGatewayDto.cs
+│   └── UpdateGatewayDto.cs
 │
 └── Helpers/
     └── AutoMapperConfig.cs
