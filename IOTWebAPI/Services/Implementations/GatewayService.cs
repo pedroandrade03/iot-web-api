@@ -53,5 +53,4 @@ public class GatewayService : IGatewayService
         
         return _gatewayRepository.DeleteGateway(gateway);
     }
-
 }
