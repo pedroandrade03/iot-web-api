@@ -65,12 +65,19 @@ Banco de Dados
 No banco de dados, isso é geralmente implementado com uma chave estrangeira em uma das tabelas que aponta para a chave primária da outra tabela. A tabela com a chave estrangeira também terá uma restrição de unicidade para garantir a relação um-para-um.
 #### Banco de Dados
 ~~~SQL
--- Criação da tabela Dispositivos
-CREATE TABLE Dispositivos (
-    DispositivoID INT PRIMARY KEY,
-    Nome VARCHAR(255)
+-- Criação da tabela Gateway
+CREATE TABLE Gateways (
+    GatewayID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Latitude DOUBLE,
+    Longitude DOUBLE,
+    IsActive BOOLEAN,
+    Type VARCHAR(50),
+    LastCommunication DATETIME,
+    CreatedAt DATETIME,
+    UpdatedAt DATETIME
 );
--- Criação da tabela Configuracoes
+-- Criação da tabela Configuration
 CREATE TABLE Configurations (
     ConfigurationID INT PRIMARY KEY,
     GatewayID INT UNIQUE,
@@ -105,3 +112,18 @@ public class Configuration
 ~~~
 Cada tipo de relacionamento tem seu papel em uma aplicação, dependendo das regras de negócio e dos requisitos de dados. Ao compreender e aplicar corretamente esses relacionamentos, podemos criar modelos de dados robustos e flexíveis que servem como a espinha dorsal de nossas aplicações, garantindo que elas sejam escaláveis, manuteníveis e eficientes.
 
+Seu Fluxo de Trabalho
+
+[Criar / Modelar as Entidades e Relacionamentos
+Implementar as Entidades e Relacionamentos no Código
+Registrar as Entidades e Relacionamentos no Contexto do Banco de Dados
+Criar as Interfaces do Repositório
+Implementar as Operações CRUD no Repositório
+Registrar o Scoped Service no Startup do IRepository e Repository
+Criar as Interfaces do Serviço
+Implementar as Operações CRUD no Serviço
+Registrar o Scoped Service no Startup do IService e Service
+Criar os DTOs
+Implementar o AutoMapper
+Criar Controllers
+Criar os Endpoints da API]()
