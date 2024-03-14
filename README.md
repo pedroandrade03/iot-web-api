@@ -114,16 +114,16 @@ Cada tipo de relacionamento tem seu papel em uma aplicação, dependendo das reg
 
 Seu Fluxo de Trabalho
 
-[Criar / Modelar as Entidades e Relacionamentos
-Implementar as Entidades e Relacionamentos no Código
-Registrar as Entidades e Relacionamentos no Contexto do Banco de Dados
-Criar as Interfaces do Repositório
-Implementar as Operações CRUD no Repositório
-Registrar o Scoped Service no Startup do IRepository e Repository
-Criar as Interfaces do Serviço
-Implementar as Operações CRUD no Serviço
-Registrar o Scoped Service no Startup do IService e Service
-Criar os DTOs
-Implementar o AutoMapper
-Criar Controllers
-Criar os Endpoints da API]()
+* Criar / Modelar as Entidades e Relacionamentos
+* Implementar as Entidades e Relacionamentos no Código
+* Registrar as Entidades e Relacionamentos no Contexto do Banco de Dados
+* Criar as Interfaces do Repositório
+* Implementar as Operações CRUD no Repositório
+* Registrar o Scoped Service no Startup do IRepository e Repository
+* Criar as Interfaces do Serviço
+* Implementar as Operações CRUD no Serviço
+* Registrar o Scoped Service no Startup do IService e Service
+* Criar os DTOs
+* Implementar o AutoMapper
+* Criar Controllers
+* Criar os Endpoints da API()
