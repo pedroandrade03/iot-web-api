@@ -1,7 +1,6 @@
-namespace IOTWebAPI.Entities;
+namespace IOTWebAPI.DTOs;
 
-
-public class Gateway
+public class GatewayWithConfigurationDto
 {
     public int GatewayID { get; set; }
     public string Name { get; set; }
@@ -12,5 +11,5 @@ public class Gateway
     public DateTime LastCommunication { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
-    public Configuration Configuration { get; set; }
+    public ConfigurationDto Configuration { get; set; }
 }

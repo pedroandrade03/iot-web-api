@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\Entities\\Gateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\Gateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\Entities\\Configuration.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\Configuration.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\DTOs\\CreateGatewayDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\CreateGatewayDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\DTOs\\GatewayDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\GatewayDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gateway.cs",
+              "DocumentMoniker": "C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\Entities\\Gateway.cs",
+              "RelativeDocumentMoniker": "Entities\\Gateway.cs",
+              "ToolTip": "C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\Entities\\Gateway.cs",
+              "RelativeToolTip": "Entities\\Gateway.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:44:37.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\Entities\\Configuration.cs",
+              "RelativeDocumentMoniker": "Entities\\Configuration.cs",
+              "ToolTip": "C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\Entities\\Configuration.cs",
+              "RelativeToolTip": "Entities\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:44:11.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GatewayDto.cs",
+              "DocumentMoniker": "C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\DTOs\\GatewayDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\GatewayDto.cs",
+              "ToolTip": "C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\DTOs\\GatewayDto.cs",
+              "RelativeToolTip": "DTOs\\GatewayDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:32:02.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateGatewayDto.cs",
+              "DocumentMoniker": "C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\DTOs\\CreateGatewayDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateGatewayDto.cs",
+              "ToolTip": "C:\\Users\\william.nascimento\\Desktop\\API\\iot-web-api\\IOTWebAPI\\DTOs\\CreateGatewayDto.cs",
+              "RelativeToolTip": "DTOs\\CreateGatewayDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:33:49.914Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
