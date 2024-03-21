@@ -6,10 +6,13 @@ namespace IOTWebAPI.Helpers;
 
 public class AutoMapperConfig : Profile
 {
-    public AutoMapperConfig()
+    public AutoMapperConfig() //esta transferindo dados de um objeto fonte para outro destino
     {
         CreateMap<Gateway, GatewayDto>();
         CreateMap<CreateGatewayDto, Gateway>();
         CreateMap<UpdateGatewayDto, Gateway>();
+        CreateMap<Configuration, ConfigurationDto>();
+        CreateMap<CreateConfigurationDto, ConfigurationDto>();
+        CreateMap<UpdateConfigurationDto, ConfigurationDto>();
     }
 }

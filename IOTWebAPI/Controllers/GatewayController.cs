@@ -8,7 +8,6 @@ namespace IOTWebAPI.Controllers;
 public class GatewayController : Controller
 {
     private readonly IGatewayService _gatewayService;
-    
     public GatewayController(IGatewayService gatewayService)
     {
         _gatewayService = gatewayService;
@@ -37,7 +36,7 @@ public class GatewayController : Controller
 
         return Ok(gateway);
     }
-
+    
     [HttpPost]
     [ProducesResponseType(204)]
     [ProducesResponseType(400)]

@@ -11,4 +11,5 @@ public class Gateway
     public DateTime LastCommunication { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
+    public Configuration Configuration { get; set; } //Representa a relação 1 pra 1, a classe Gateway tem acesso às infos de Configuration
 }
